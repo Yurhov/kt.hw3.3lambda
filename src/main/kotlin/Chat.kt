@@ -2,6 +2,7 @@ open class Chat(
     val to: Int,
     val from: Int,
     val id: Int = 0,
+
     var message: MutableList<Message> = mutableListOf<Message>(),
 ) {
 
